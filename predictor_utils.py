@@ -3,7 +3,7 @@
 # Branch Prediction Simulation
 # 4/13/2025
 
-# too many circular dependencies, so we move the predictions here, then theyre called in branch_pred.py
+# too many circular dependencies, so we move the predictions here, then theyre called elsewhere
 from typing import Tuple
 
 def simulate_zero_bit_predictor(trace_data: list) -> Tuple[int, int]:
